@@ -7,12 +7,14 @@
 The S&T Undergraduate Scholarships Program aims to stimulate and entice talented Filipino youths to pursue lifetime productive careers in science and technology and ensure a steady, adequate supply of qualified S&T human resources which can steer the country towards national progress.
 
 ## Types of Scholarship
+*This section explains the different types of DOST-SEI Undergraduate Scholarships, including the Merit Scholarship and the RA 7687 Scholarship Program.*
 * ### Merit
   * The DOST-SEI Merit Scholarship Program, formerly known as the NSDB or NSTA Scholarship under RA No. 2067, is awarded to students high aptitude in science and mathematics and are willing to pursue careers in the fields of science and technology. 
 * ### RA 7687
   * Republic Act No. 7687, also known as the “Science and Technology Scholarship Act of 1994”, provides scholarships to talented and deserving students whose families’ socio-economic status does not exceed the set cut-off values of certain indicators. Qualifiers must pursue priority fields of study in the basic sciences, engineering, other applied sciences, and science and mathematics teaching.
 
 ## Priority S&T Programs
+*This section lists the priority science and technology degree programs that are eligible for the DOST-SEI Undergraduate Scholarship.*
 Bachelor in Elementary Mathematics and Science Education
 * Bachelor in Mathematics Education
 * Bachelor in Science Education with specialization in Biology, Chemistry and Physics
@@ -153,7 +155,7 @@ Bachelor in Elementary Mathematics and Science Education
 * Private Institutions that are recognized by CHED as Centers of Excellence or Centers of Development or have FAAP Level III accreditation for the priority S&T programs of study
 
 ## Scholarship Privileges
-
+*This section describes the financial benefits, allowances, tuition support, insurance, transportation assistance, and other scholarship privileges provided to DOST-SEI Undergraduate Scholars.*
 |              Scholarship Privileges              |        Regular Academic Year         | Summer/Mid Year (if required in the curriculum) |
 |:------------------------------------------------:|:------------------------------------:|:-----------------------------------------------:|
 |                   School Fees                    |           PHP 40,000/year            |             Actual up to PHP 10,000             |
@@ -174,7 +176,7 @@ Bachelor in Elementary Mathematics and Science Education
 ---
 
 ## Schedule
-
+*This section provides the timeline, important dates, deadlines, examination schedule, and announcement dates for the DOST-SEI Undergraduate Scholarship application.*
 **17 August 2026**  
 Start of Online Application/Registration Period
 
@@ -187,7 +189,7 @@ Schedule of Qualifying Examination
 ---
 
 ## Eligibility Criteria
-
+*This section explains who can apply for the DOST-SEI Undergraduate Scholarship. It describes the eligibility requirements, qualifications, and conditions that applicants must satisfy before applying.*
 ### Grade 12 Students
 
 **Graduating in SY 2026–2027 and past Grade 12 graduates**  
@@ -236,7 +238,7 @@ Must **not have earned any post-secondary (college or vocational) units**.
 ---
 
 ## Application Do's and Don'ts
-
+*This section provides important reminders, guidelines, and best practices when applying for the DOST-SEI Undergraduate Scholarship. It includes instructions on account creation, document submission, email, internet connection, and avoiding common application mistakes.*
 ### Valid and Secured Email Address
 
 A valid email address is required for logging in to your application account and receiving notifications about your application status and results.
@@ -314,7 +316,8 @@ Use the **Preview** button in the system to verify uploaded files. Unviewable or
 
 ---
 
-## Scholarship Forms
+### Scholarship Forms
+*This section explains the required documents, forms, supporting requirements, and submission guidelines for the DOST-SEI Undergraduate Scholarship application.*
 
 |  Form   | Description                                                                                                                                                   |
 |:-------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -332,7 +335,7 @@ Use the **Preview** button in the system to verify uploaded files. Unviewable or
 
 ---
 
-## Applicant's Recent Picture
+### Applicant's Recent Picture
 
 **Required specifications:**
 
@@ -351,7 +354,7 @@ Use the **Preview** button in the system to verify uploaded files. Unviewable or
 
 ---
 
-## Applicant’s Birth Certificate
+### Applicant’s Birth Certificate
 
 Requirements:
 
@@ -364,11 +367,11 @@ Requirements:
 
 ---
 
-## Proof of Income
+### Proof of Income
 
 Submit a clear and signed proof of income based on the parent’s or guardian’s class of work.
 
-### Important Notes:
+#### Important Notes:
 
 - Any one acceptable proof of income may be submitted depending on the worker classification.
 - The document must:
@@ -376,60 +379,60 @@ Submit a clear and signed proof of income based on the parent’s or guardian’
 - Clearly indicate the annual gross income.
 - The required document depends on the parent's class of work.
 
-### Class of Worker & Required Proof of Income
+#### Class of Worker & Required Proof of Income
 
-#### OFW
+##### OFW
 * 2025 Income Tax Return or Employmment Contract for OFW or Certificate of Employment with Compensation
 
-#### Works for Private Household
+##### Works for Private Household
 *Ex. On-Call Construction Worker, Labandera, Kasambahay*
 
 * BIR Certificate of Exemption from Filing of ITR or Certificate of Indigency or Certificate of Employment with Compensation
 
-#### Works for Religious Organizations
+##### Works for Religious Organizations
 *Ex. Pastor*
 
 * 2025 Income Tax Return or BIR Certificate of Exemption from Filing of ITR or Certificate of Employment with Compensation
 
-#### Works for Private Establishment
+##### Works for Private Establishment
 *Ex. Call Center Agent*
 
 * 2025 Income Tax Return or Certificate of Employment with Compensation
 
-#### Works for Government
+##### Works for Government
 *Ex. Baranggay Official*
 
 * 2025 Income Tax Return or BIR Certificate of Exemption from Filing of ITR or Certificate of Employment with Compensation
 
-#### Self-Employed without any employees
+##### Self-Employed without any employees
 *Ex. Tricycle Driver, Farmer, Ambulant Vendor, Sari-Sari Store Owner, Dressmaker*
 
 * BIR Form 1701 or BIR Certificate of Exemption from Filing of ITR or Certificate of Indigency
 
-#### Self-Employed / Professionals
+##### Self-Employed / Professionals
 *Ex. Doctor, Lawyer*
 
 * 2025 Income Tax Return or BIR Form 1701
 
-#### Employer in Family-Owned Business
+##### Employer in Family-Owned Business
 *Ex. Business Owner (Registered Business Operator)*
 
 * 2025 Income Tax Return or BIR Form 1701
 
-#### Works with Pay in Family Operated Business
+##### Works with Pay in Family Operated Business
 *Ex. Bookkeeper in Family Operated Business*
 
 * 2025 Income Tax Return or BIR Certificate of Exemption from Filing of ITR or Certificate of Employment with Compensation
 
-#### Retired with Pension
+##### Retired with Pension
 
 * Proof of Pension
 
-#### If both parents are unemployed
+##### If both parents are unemployed
 
 * Certificate of Indigency
 
-#### Important Notes
+##### Important Notes
 - Sample ITR (https://ugs.science-scholarships.ph/assets/forms/sampleITR.pdf)
 - For a certain class of worker, any one proof of income may be submitted.
 - Clear, signed copy.
@@ -438,7 +441,7 @@ Submit a clear and signed proof of income based on the parent’s or guardian’
 
 ---
 
-## Notarized Affidavit of Guardianship
+### Notarized Affidavit of Guardianship
 
 Required if:
 
@@ -447,7 +450,7 @@ Required if:
 
 ---
 
-## Applicant’s Marriage Certificate
+### Applicant’s Marriage Certificate
 
 Required if the applicant is married.
 
@@ -589,7 +592,7 @@ Upon clicking the **Submit** button, you will be prompted to review and agree to
 ---
 
 ## What's next?
-
+*This section explains what happens after submitting an application, including the examination, test permit, announcement of qualifiers, scholarship orientation, and the effectivity of the scholarship award.*
 ### Issuance of Test Permit
 
 The pen and paper examination is on **November 14-15, 2026**.

@@ -1,5 +1,7 @@
 # About the Science Education Institute
 
+*This section introduces the Department of Science and Technology - Science Education Institute (DOST-SEI), its mandate, objectives, history, and the scholarship programs it administers.*
+
 ***Source: https://sei.dost.gov.ph/***
 
 ***Last Updated: August 2026***
@@ -60,6 +62,7 @@ Science and Technology Manpower Education Research and Promotions Division
 Science and Technology Scholarship Division
 
 ## SCHOLARSHIPS PROGRAMS
+*This section provides an overview of all scholarship programs administered by DOST-SEI, including undergraduate and graduate scholarship opportunities.*
 * UNDERGRADUATE
   * S&T Undergraduate Scholarships
   * Junior Level Science Scholarships (JLSS)
