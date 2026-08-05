@@ -5,7 +5,7 @@ A local Retrieval-Augmented Generation (RAG) chatbot that answers questions abou
 ## Tech Stack
 
 - Python
-- Qwen 2.5
+- Qwen 1.5
 - LangChain
 - FAISS
 - Sentence Transformers
