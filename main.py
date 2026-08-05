@@ -1,19 +1,38 @@
-from transformers import AutoTokenizer
+from app.llm import load_model
 
-tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-3B-Instruct")
+print("=" * 40)
+print("DOST Scholarship AI Assistant")
+print("=" * 40)
 
-texts = [
-    "Hello",
-    "Hello world",
-    "Artificial Intelligence is fascinating."
+tokenizer, model = load_model()
+
+print("\nModel is ready!\n")
+
+prompt = "Hello! Introduce yourself in one sentence."
+
+messages = [
+    {"role": "user", "content": prompt}
 ]
 
-inputs = tokenizer(
-    texts,
-    padding=True,
-    return_tensors="pt"
+text = tokenizer.apply_chat_template(
+    messages,
+    tokenize=False,
+    add_generation_prompt=True
 )
 
-print(inputs["input_ids"])
-print()
-print(inputs["attention_mask"])
+inputs = tokenizer(text, return_tensors="pt").to(model.device)
+
+outputs = model.generate(
+    **inputs,
+    max_new_tokens=80
+)
+
+generated_ids = outputs[0][inputs["input_ids"].shape[1]:]
+
+response = tokenizer.decode(
+    generated_ids,
+    skip_special_tokens=True
+)
+
+print("\nAssistant:")
+print(response)
