@@ -1,9 +1,10 @@
 from langchain_huggingface import HuggingFaceEmbeddings
+from app.config import EMBEDDING_MODEL
 
 def load_embeddings():
 
     embeddings = HuggingFaceEmbeddings(
-        model_name="BAAI/bge-small-en-v1.5",
+        model_name=EMBEDDING_MODEL,
         model_kwargs={
             "device": "cpu"
         },
