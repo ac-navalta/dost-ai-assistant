@@ -1,6 +1,7 @@
 from app.embeddings import load_embeddings
 from app.vectorstore import load_vectorstore
 from app.llm import load_model, generate_response
+from app.memory import ConversationMemory
 from app.prompt import build_prompt
 from app.retriever import retrieve_documents
 
@@ -18,12 +19,16 @@ def main():
 
     tokenizer, model = load_model()
 
+    memory = ConversationMemory(max_turns=3)
+
     print("Assistant is ready!\n")
 
     while True:
+
         question = input("Ask a question (type 'exit' to quit): ").strip()
 
         if question.lower() == "exit":
+            memory.clear()
             print("\nGoodbye!")
             break
 
@@ -34,15 +39,41 @@ def main():
         # Retrieve relevant documents
         documents = retrieve_documents(vectorstore, question)
 
-        # Build the prompt
-        prompt = build_prompt(question, documents)
+        # Build system prompt
+        system_prompt = build_prompt(documents)
 
-        # Generate the answer
+        # Build chat messages
+        messages = [
+            {
+                "role": "system",
+                "content": system_prompt
+            }
+        ]
+
+        messages.extend(memory.get_messages())
+
+        messages.append({
+            "role": "user",
+            "content": question
+        })
+
+        # Convert to Qwen chat format
+        chat_prompt = tokenizer.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=True
+        )
+
+        # Generate answer
         answer = generate_response(
             model=model,
             tokenizer=tokenizer,
-            prompt=prompt
+            prompt=chat_prompt
         )
+
+        # Store to memory
+        memory.add("user", question)
+        memory.add("assistant", answer)
 
         # Display answer
         print("\nAssistant:")
@@ -54,6 +85,7 @@ def main():
         shown = set()
 
         for doc in documents:
+
             source = (
                 doc.metadata.get("document", "Unknown Document"),
                 doc.metadata.get("section", "General")

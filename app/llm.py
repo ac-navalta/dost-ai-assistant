@@ -28,7 +28,9 @@ def generate_response(model, tokenizer, prompt):
     outputs = model.generate(
         **inputs,
         max_new_tokens=MAX_NEW_TOKENS,
-        do_sample=False
+        do_sample=False,
+        eos_token_id=tokenizer.eos_token_id,
+        pad_token_id=tokenizer.eos_token_id,
     )
 
     generated_tokens = outputs[0][inputs["input_ids"].shape[1]:]
